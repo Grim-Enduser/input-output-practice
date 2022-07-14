@@ -1,5 +1,36 @@
 h1 {
   font-family: poppings, sans-serif;
+  font-size: 12px;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+}
+
+#input-field {
+  height: 20px;
+  min-width: 200px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-inline: 5px;
+  padding: 2px 4px;
+}
+
+#output-field {
+  height: 20px;
+  width: 200px;
+  background-color: #d3d3d3;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-inline: 5px;
+  padding: 2px 4px;
+}
+
+button {
+  height: 24px;
+  margin-inline: 5px;
+  display: block;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
